@@ -1,41 +1,40 @@
-## 📝 Debt Manager App ✅
+## 📝Mean-Variance-Standard Deviation Calculator
 
-This web app is made for students by student who lend their money to their friends and tend to forget and we are students, the credits are not returned or are returned after months so keeping a track of how much we have lended could save some time. 
+This project implements a Python function to calculate key statistical metrics for a 3x3 matrix. The function takes a list of numbers, reshapes it into a matrix, and computes metrics such as mean, variance, standard deviation, maximum, minimum, and sum along both axes and for the flattened matrix.
+ 
 
 ## 🌟 Features
 
-- ✍️ **Add Debt**: Admin can add debt to the list.
-- 🗑️ **Delete Debts**: Admins can delete and edit the debts whereas viewers can only view their debts.
-- 📈 **Role-Based Permissions**: Different permissions for admin and viewers roles.
-- 📥 **Data Persistence**: Tasks are saved locally and restored on page reload.
+- ✍️ **- Converts a list of exactly 9 numbers into a 3x3 NumPy array.
+- 🗑️ **Computes the following metrics:
+- 📈 **Mean**
+- 📥 **Variance**:
+- 📥 **Standard Deviation**:
+- 📥 **Maximum**:
+- 📥 **Minimum**:
 
+- Outputs the metrics in a structured dictionary format.
 
 
 ## 🛠️ Technologies Used
 
-- ⚛️ **HTML**
-- 🎨 **CSS**
-- 📜 **JavaScript**
-- 🛡️ **OPAL integration**
+- ⚛️ **Python 3.x**
+- 🎨 **NumPy library**
 
 ## 📦 Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/AnClicks/Debt-Manager.git
+    git clone https://github.com/noogler-aditya/mean-variance-calculator.git
     ```
-2. Set up OPAL server for you system and make sure you have docker installed on your system.
+2. Install NumPy if not already installed:
    ```bash
-   docker-compose -f docker/docker-compose-example.yml up
+   pip install numpy
     ```
+## 🤝 Contributions
 
-3. Open `index.html` in your preferred web browser.
+Contributions are welcome! Feel free to fork this repository and submit a pull request with your enhancements.
 
-## 🙌 Acknowledgements
+## 🙌 Acknowledgments
 
-- 🛡️ [OPAL](https://docs.opal.ac/) for policy management.
-- 🎨 Icons made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com).
-
-## 🤝 Contributing
-
-This is just an husk there is lot more that can be done on this project. So,Contributions are welcome! Open an issue or submit a pull request for any improvements or suggestions. Let's make this app even better together! 🌟
+This project was inspired by the need to learn NumPy and Python dictionary manipulations for data analysis.
